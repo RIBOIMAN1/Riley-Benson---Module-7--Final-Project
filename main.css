@@ -213,5 +213,41 @@ body, html {
 }
 
 .ImageGap {
-    padding-right: 39%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.MiniImageBackground {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(0.5);
+    position: fixed;
+    z-index: -1;
+    overflow: auto;
+}
+
+.YouTubeWindow {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.iframeSize {
+    width: 30%;
+    max-width: 640px;
+    height: 360px;
+    border: 0px;
+}
+
+.BottomPadding {
+    padding-bottom: 20px;
 }
