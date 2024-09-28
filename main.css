@@ -43,7 +43,6 @@ ul {
 
 ul li {
     margin-bottom: 5px;
-    color: #7f8c8d;
 }
 
 div ul {
@@ -222,7 +221,6 @@ body, html {
 .MiniImageBackground {
     width: auto;
     height: auto;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -250,4 +248,11 @@ body, html {
 
 .BottomPadding {
     padding-bottom: 20px;
+}
+
+.BulletUnorderedList {
+    list-style-type: disc;
+    color: plum;
+    font-size: 1.15em;
+    margin-bottom: 1em;
 }
