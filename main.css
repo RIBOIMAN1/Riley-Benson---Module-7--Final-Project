@@ -145,6 +145,10 @@ button:hover {
     border: 3px solid red;
 }
 
+.BorderedTextDashed {
+    border: 10px dashed greenyellow;
+}
+
 .BorderedTextRounded {
     border: 10px solid red;
     border-radius: 50%;
@@ -255,4 +259,12 @@ body, html {
     color: plum;
     font-size: 1.15em;
     margin-bottom: 1em;
+}
+
+.NoBorder {
+    border: 0px;
+}
+
+.BrightnessText80 {
+    filter: brightness(0.8);
 }
