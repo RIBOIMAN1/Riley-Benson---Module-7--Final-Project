@@ -166,7 +166,7 @@ button:hover {
 }
 
 .TableDesign {
-    border: 5px solid red;
+    border: 5px ridge red;
     color: greenyellow;
     width: 100%;
     text-align: center;      
@@ -261,6 +261,14 @@ body, html {
     border: 0px;
 }
 
+.SmallBottomPadding {
+    padding-bottom: 5px;
+}
+
+.SmallTopPadding {
+    padding-top: 10px;
+}
+
 .BottomPadding {
     padding-bottom: 20px;
 }
@@ -278,4 +286,8 @@ body, html {
 
 .BrightnessText80 {
     filter: brightness(0.8);
+}
+
+.ThinBorder {
+    border: 1px solid;color: plum;
 }
