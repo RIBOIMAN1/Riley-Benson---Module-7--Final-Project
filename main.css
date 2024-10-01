@@ -1,9 +1,4 @@
-.external-css {
-    color: darkcyan;
-    background-color: purple;
-}
-
-body, h1, h2, p, ul, li, a {
+body, h1, h2, ul, li, a {
     margin: 0;
     padding: 0;
     font-family: sans-serif, "Ubuntu", Arial, Helvetica
@@ -30,17 +25,6 @@ h3 {
     font-size: 1.15em;
     margin-bottom: 1em;
 }
-
-p {
-    font-size: 16px;
-    color: #7f8c8d;
-    margin-bottom: 12px;
-}
-
-p a {
-    color: #f39c12;
-    text-decoration: none;
-}
 ul {
     list-style-type: none;
     margin-left: 20px;
@@ -49,34 +33,6 @@ ul {
 
 ul li {
     margin-bottom: 5px;
-}
-
-div ul {
-    list-style-type: square;
-}
-
-.feature-card {
-    border: 2px solid #7f8c8d;
-    padding: 20px;
-    margin: 20px;
-    background-color: #f9f9f9;
-}
-
-.feature-card h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #2c3e50;
-}
-
-.feature-card p {
-    margin-bottom: 10px;
-    color: #7f8c8d;
-}
-
-#special-feature {
-    background-color: #fde3a7;
-    border-color: #f39c12;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 a {
@@ -94,18 +50,6 @@ a:hover {
     border: 3px solid yellow;
 }
 
-button {
-    padding: 5px 10px;
-    border: none;
-    background-color: #ecf0f1;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-button:hover {
-    background-color: red;
-}
-
 .center-text {
     text-align: center;
 }
@@ -120,35 +64,10 @@ button:hover {
     height: auto;
     width: 30%;
 }
-.img40 {
-    height: auto;
-    width: 40%;
-}
-.img49_5 {
-    height: auto;
-    width: 49.5%;
-}
-.img50 {
-    height: auto;
-    width: 50%;
-}
-
-.img50Poster {
-    height: auto;
-    width: 50%;
-}
 
 .img100 {
     height: auto;
     width: 100%
-}
-
-.ImageBackground {
-    background-color: darkcyan;
-}
-
-.VideoBorder {
-    border: 3px solid red;
 }
 
 .BorderedTextDashed {
@@ -180,11 +99,6 @@ button:hover {
 
 .GreenYellowFont {
     color: greenyellow;
-}
-
-.br {
-    content: "\A";
-    white-space: pre;
 }
 
 #footer {
@@ -245,15 +159,6 @@ body, html {
     overflow: auto;
 }
 
-.YouTubeWindow {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    background: #000;
-}
-
 .iframeSize {
     width: 30%;
     max-width: 640px;
@@ -278,10 +183,6 @@ body, html {
     color: plum;
     font-size: 1.15em;
     margin-bottom: 1em;
-}
-
-.NoBorder {
-    border: 0px;
 }
 
 .BrightnessText80 {
