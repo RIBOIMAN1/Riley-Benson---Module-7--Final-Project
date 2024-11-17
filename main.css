@@ -161,11 +161,11 @@ a:hover {
 
 .SmallBottomPadding {
     padding-bottom: 5px; /* Applies a small amount of bottom padding (a gap), being 5px */
-} /* Applies a very small gap on the bottom of elements */
+} /* Applies a very small amount of bottom padding (a gap) on the bottom of elements, being 5px */
 
 .SmallTopPadding {
-    padding-top: 10px; /*  */
-} /* Applies a small amount of top padding (a gap), being 10px */
+    padding-top: 10px; /* Applies a small amount of top padding (a gap), being 10px */
+} /* Applies a very small amount of bottom padding (a gap) on the bottom of elements, being 10px */
 
 .BottomPadding {
     padding-bottom: 20px; /* Adds padding (gap) that is 20px long to the bottom of element */
