@@ -2,11 +2,11 @@ body, h1, h2, ul, li, a {
     margin: 0; /* Removes the default margining from the page */
     padding: 0; /* Removes the default padding from the page */
     font-family: sans-serif, "Ubuntu", Arial, Helvetica /* Font families for the webpage */
-}
+} /* Removes default margining and padding and sets the font families for the webpagem, applying to <body>, <h1>, <h2>, <ul>, <li>, and <a> elements */
 
 body {
     background: radial-gradient(circle, rgb(0,0,0), rgb(40,0,40)); /* Gradient dark purple background */
-}
+} /* Gives the body of the website a dark purple and black radial gradient background */
 
 h1 {
     color: cyan; /* Cyan color for the text */
